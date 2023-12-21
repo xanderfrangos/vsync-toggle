@@ -3,10 +3,10 @@
 #----------------------------------------------------------------------------------------------------------------------
 
 cmake_minimum_required(VERSION 3.27)
-project(gsynctoggle 
+project(vsynctoggle 
         VERSION 1.1.0
-        DESCRIPTION "Command line app for Windows to toggle GSync."
-        HOMEPAGE_URL "https://github.com/FrogTheFrog/gsync-toggle"
+        DESCRIPTION "Command line app for Windows to toggle VSync."
+        HOMEPAGE_URL "https://github.com/xanderfrangos/vsync-toggle"
         LANGUAGES C CXX)
 
 set(CMAKE_CXX_STANDARD 20)

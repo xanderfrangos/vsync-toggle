@@ -32,7 +32,7 @@ jobs:
 
       - name: Generate name
         id: filename
-        run: echo "name=gsynctoggle-${{ steps.version.outputs.name }}${{ steps.hash.outputs.name }}-x86_64" >> $GITHUB_OUTPUT
+        run: echo "name=vsynctoggle-${{ steps.version.outputs.name }}${{ steps.hash.outputs.name }}-x86_64" >> $GITHUB_OUTPUT
 
       - name: Print the filename base
         run: echo "${{ steps.filename.outputs.name }}"

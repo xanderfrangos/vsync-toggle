@@ -29,13 +29,13 @@ jobs:
 
       - name: Rename
         working-directory: ./build/src
-        run: mv gsynctoggle.exe ${{ needs.Filename.outputs.filename }}.exe
+        run: mv vsynctoggle.exe ${{ needs.Filename.outputs.filename }}.exe
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v3
         with:
           name: dist
-          path: ./build/src/gsynctoggle*exe
+          path: ./build/src/vsynctoggle*exe
           retention-days: 1
           if-no-files-found: error
         
